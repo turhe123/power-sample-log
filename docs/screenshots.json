@@ -1,0 +1,5 @@
+[
+  {"file":"01-recording.png","caption":"The menu bar popover during a recording session, showing elapsed time, row count, file size, the CSV file link, the latest battery, power and thermal readings, and a field for adding markers.","alt":"PowerSampleLog popover while recording, with live battery and power stats"},
+  {"file":"02-settings.png","caption":"Settings for the sampling interval, default save folder, 50 MB file rotation, auto-stop rules and which CSV columns to record.","alt":"PowerSampleLog Settings window"},
+  {"file":"03-start-session.png","caption":"The idle popover, where you name a session and start recording to a new CSV file.","alt":"PowerSampleLog popover in the idle state with a Start Session button"}
+]

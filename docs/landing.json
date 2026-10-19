@@ -1,0 +1,24 @@
+{
+  "seo_title": "Battery and power CSV logger for macOS",
+  "seo_description": "PowerSampleLog is a free, open-source menu bar app that logs battery, power and thermal readings to a CSV file you can chart in any spreadsheet.",
+  "hero_title_line1": "Battery and power data,",
+  "hero_title_accent": "straight to CSV.",
+  "hero_sub": "PowerSampleLog lives in your menu bar and writes battery, wattage and thermal readings to a CSV file at the interval you choose. Press Option-Command-L to start or stop.",
+  "features_title": "One job, done properly.",
+  "features_sub": "Everything you need to turn a battery or charger test into a clean time series, and nothing you don't.",
+  "features": [
+    {"icon": "battery", "title": "Battery, watts and temperature", "desc": "Each row records percent, charging state, voltage, amperage, computed watts, temperature and cycle count. Watts are negative while discharging."},
+    {"icon": "clock", "title": "Sampling from 1 to 60 seconds", "desc": "Choose 1, 5, 10 or 60 second intervals, and pick which columns to record. Timestamps are ISO 8601 with your local offset."},
+    {"icon": "text", "title": "Markers for events", "desc": "Add a note such as Started render to line up events with the data. Commas, quotes and line breaks are escaped so columns stay intact."},
+    {"icon": "bell", "title": "Auto-stop rules", "desc": "End a session after a set number of minutes or when the battery reaches a level you choose. A row notes when auto-stop triggers."},
+    {"icon": "folder", "title": "Safe, named files", "desc": "Name each session and pick its location. Rows are flushed as they are written, files can rotate at 50 MB, and nothing is overwritten without asking."},
+    {"icon": "keyboard", "title": "Global shortcuts", "desc": "Option-Command-L starts or stops recording and Option-Command-M adds a marker, from any app. Sleep gaps are marked with a GAP row on wake."}
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {"q": "Is PowerSampleLog really free and open source?", "a": "Yes. It is released under the MIT license, has no accounts, ads or subscriptions, and the full source is on GitHub. If it is useful, there is an optional Support button in the app."},
+    {"q": "Does it need any permissions?", "a": "No. Battery data comes from the AppleSmartBattery registry entry, thermal state from the system, and the shortcuts use Carbon hot keys. It never asks for Accessibility, Screen Recording or Microphone access."},
+    {"q": "Where is my data stored?", "a": "Only in the CSV files you choose, in the save panel or in the default folder you set in Settings. The app has no network access and no server, so nothing leaves your Mac."},
+    {"q": "Why is the app not notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to approve it, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}

@@ -1,5 +1,7 @@
 # PowerSampleLog
 
+**🌐 Website:** [turhe123.github.io/power-sample-log](https://turhe123.github.io/power-sample-log/)
+
 Log battery, power and thermal samples to a CSV file you can open in a spreadsheet.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ PowerSampleLog is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-recording.png" alt="PowerSampleLog popover while recording, with live battery and power stats" width="720"></p>
+
+<p align="center"><em>The menu bar popover during a recording session, showing elapsed time, row count, file size, the CSV file link, the latest battery, power and thermal readings, and a field for adding markers.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="PowerSampleLog Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the sampling interval, default save folder, 50 MB file rotation, auto-stop rules and which CSV columns to record.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-start-session.png" alt="PowerSampleLog popover in the idle state with a Start Session button" width="560"></p>
+
+<p align="center"><em>The idle popover, where you name a session and start recording to a new CSV file.</em></p>
 
 ## Install
 
